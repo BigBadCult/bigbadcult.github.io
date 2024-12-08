@@ -2,3 +2,10 @@ site_name: BigBadCult
 site_url: https://bigbadcult.github.io
 theme:
   name: material
+  features:
+    - navigation.sections
+    - navigation.path
+nav:
+  - Home: index.md
+  - Products:
+    - MONOKEY: monokey.md
