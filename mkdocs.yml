@@ -2,9 +2,25 @@ site_name: BigBadCult
 site_url: https://bigbadcult.github.io
 theme:
   name: material
+  palette:
+    scheme: slate
+    primary: black
+    accent: indigo
+  logo: assets/logo.png
+  favicon: assets/favicon.png
   features:
     - navigation.sections
     - navigation.path
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/solid/envelope
+      link: mailto:bigbadcult@gmail.com
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/S4Qqz2ZqWm
+extra_css:
+  - stylesheets/extra.css
+copyright: Copyright &copy; 2024 BigBadCult
 nav:
   - Home: index.md
   - Products:
